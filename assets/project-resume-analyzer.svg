@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+    <linearGradient id="p1-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.1"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="850" height="250" rx="14" fill="url(#p1-bg)"/>
+  <rect x="1" y="1" width="848" height="248" rx="13" fill="none" stroke="url(#card-border)" stroke-width="1.5"/>
+
+  <!-- Top bar -->
+  <g transform="translate(25, 24)">
+    <rect width="90" height="22" rx="11" fill="#0369A1" fill-opacity="0.2" stroke="#38BDF8" stroke-width="1"/>
+    <text x="45" y="15" fill="#38BDF8" font-size="10.5" font-weight="700" text-anchor="middle" class="mono">FEATURED</text>
+
+    <text x="105" y="16" fill="#F8FAFC" font-size="17" font-weight="700" class="sans">
+      AI Resume Intelligence Platform
+    </text>
+
+    <!-- Live indicator -->
+    <g transform="translate(640, 2)">
+      <circle cx="0" cy="10" r="4" fill="#10B981"/>
+      <text x="12" y="14" fill="#10B981" font-size="11" font-weight="600" class="mono">LIVE PRODUCTION</text>
+    </g>
+  </g>
+
+  <!-- Architecture Flow Banner -->
+  <g transform="translate(25, 62)">
+    <!-- Node 1: Ingestion -->
+    <rect x="0" y="0" width="180" height="64" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="15" y="24" fill="#38BDF8" font-size="11.5" font-weight="700" class="mono">01. INGESTION</text>
+    <text x="15" y="44" fill="#94A3B8" font-size="11" class="sans">PDF, DOCX, TXT Parsing</text>
+    <text x="15" y="56" fill="#64748B" font-size="9.5" class="mono">Apache PDFBox &amp; POI</text>
+
+    <!-- Arrow 1 -->
+    <path d="M 188 32 L 202 32 M 197 27 L 202 32 L 197 37" stroke="#64748B" stroke-width="1.8" fill="none"/>
+
+    <!-- Node 2: Embeddings & Vector -->
+    <rect x="210" y="0" width="185" height="64" rx="8" fill="#1E293B" stroke="#4F46E5" stroke-width="1"/>
+    <text x="15" y="24" transform="translate(210,0)" fill="#818CF8" font-size="11.5" font-weight="700" class="mono">02. VECTOR ENGINE</text>
+    <text x="15" y="44" transform="translate(210,0)" fill="#94A3B8" font-size="11" class="sans">1536-dim Semantic Match</text>
+    <text x="15" y="56" transform="translate(210,0)" fill="#64748B" font-size="9.5" class="mono">PGVector &amp; HNSW Index</text>
+
+    <!-- Arrow 2 -->
+    <path d="M 403 32 L 417 32 M 412 27 L 417 32 L 412 37" stroke="#64748B" stroke-width="1.8" fill="none"/>
+
+    <!-- Node 3: Entity Resolution -->
+    <rect x="425" y="0" width="185" height="64" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="15" y="24" transform="translate(425,0)" fill="#38BDF8" font-size="11.5" font-weight="700" class="mono">03. TAXONOMY</text>
+    <text x="15" y="44" transform="translate(425,0)" fill="#94A3B8" font-size="11" class="sans">4-Tier Entity Resolution</text>
+    <text x="15" y="56" transform="translate(425,0)" fill="#64748B" font-size="9.5" class="mono">100+ Skill Ontology</text>
+
+    <!-- Arrow 3 -->
+    <path d="M 618 32 L 632 32 M 627 27 L 632 32 L 627 37" stroke="#64748B" stroke-width="1.8" fill="none"/>
+
+    <!-- Node 4: RAG & Gap Analysis -->
+    <rect x="640" y="0" width="160" height="64" rx="8" fill="#1E293B" stroke="#059669" stroke-width="1"/>
+    <text x="15" y="24" transform="translate(640,0)" fill="#34D399" font-size="11.5" font-weight="700" class="mono">04. RAG OUTPUT</text>
+    <text x="15" y="44" transform="translate(640,0)" fill="#94A3B8" font-size="11" class="sans">Skill Gap Scoring</text>
+    <text x="15" y="56" transform="translate(640,0)" fill="#64748B" font-size="9.5" class="mono">Actionable AI Insights</text>
+  </g>
+
+  <!-- Technical Spec & Stack Pills -->
+  <g transform="translate(25, 145)">
+    <!-- Architecture Bullets -->
+    <text x="0" y="16" fill="#CBD5E1" font-size="12" class="sans">
+      <tspan fill="#38BDF8" font-weight="700">Enterprise Stack:</tspan> Java 21 • Spring Boot • Spring AI • PostgreSQL (PGVector) • React • Docker • Flyway • OpenAPI
+    </text>
+    <text x="0" y="38" fill="#94A3B8" font-size="11.5" class="sans">
+      Features high-speed cosine vector similarity with HNSW indexes, automated schema migrations, and RESTful OpenAPI contracts.
+    </text>
+  </g>
+
+  <!-- Bottom Badges / Metrics -->
+  <g transform="translate(25, 205)">
+    <rect width="130" height="26" rx="6" fill="#1E293B"/>
+    <text x="65" y="17" fill="#E2E8F0" font-size="11" font-weight="600" text-anchor="middle" class="mono">1536d Embeddings</text>
+
+    <rect x="140" y="0" width="130" height="26" rx="6" fill="#1E293B"/>
+    <text x="205" y="17" fill="#E2E8F0" font-size="11" font-weight="600" text-anchor="middle" class="mono">100+ Skill Ontology</text>
+
+    <rect x="280" y="0" width="145" height="26" rx="6" fill="#1E293B"/>
+    <text x="352" y="17" fill="#E2E8F0" font-size="11" font-weight="600" text-anchor="middle" class="mono">HNSW Vector Index</text>
+
+    <rect x="435" y="0" width="125" height="26" rx="6" fill="#1E293B"/>
+    <text x="497" y="17" fill="#E2E8F0" font-size="11" font-weight="600" text-anchor="middle" class="mono">Spring AI RAG</text>
+
+    <rect x="570" y="0" width="230" height="26" rx="6" fill="#0C4A6E" stroke="#0284C7" stroke-width="1"/>
+    <text x="685" y="17" fill="#38BDF8" font-size="11" font-weight="700" text-anchor="middle" class="mono">🔗 resume-analyzer.barunchamlagain.me</text>
+  </g>
+</svg>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dash-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E17"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="bar-typescript" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3178C6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="bar-python" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="bar-java" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="bar-js" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="850" height="240" rx="14" fill="url(#dash-bg)"/>
+  <rect x="1" y="1" width="848" height="238" rx="13" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Top bar -->
+  <g transform="translate(25, 24)">
+    <text x="0" y="16" fill="#38BDF8" font-size="11" font-weight="700" letter-spacing="1.5" class="mono">
+      SYSTEM METRICS // VERIFIED GITHUB ACTIVITY
+    </text>
+    <text x="730" y="16" fill="#10B981" font-size="11" font-weight="600" text-anchor="end" class="mono">
+      ● 2026 LIVE DATA
+    </text>
+  </g>
+
+  <!-- 4 KPI Stat Boxes -->
+  <g transform="translate(25, 55)">
+    <!-- Box 1 -->
+    <rect width="180" height="74" rx="8" fill="#131B2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" fill="#94A3B8" font-size="10.5" font-weight="600" class="mono">TOTAL CONTRIBUTIONS</text>
+    <text x="16" y="55" fill="#38BDF8" font-size="24" font-weight="800" class="sans">130+</text>
+    <text x="70" y="54" fill="#64748B" font-size="11" class="mono">commits &amp; PRs</text>
+
+    <!-- Box 2 -->
+    <rect x="200" y="0" width="180" height="74" rx="8" fill="#131B2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" transform="translate(200,0)" fill="#94A3B8" font-size="10.5" font-weight="600" class="mono">MERGED PULL REQUESTS</text>
+    <text x="16" y="55" transform="translate(200,0)" fill="#818CF8" font-size="24" font-weight="800" class="sans">12</text>
+    <text x="50" y="54" transform="translate(200,0)" fill="#64748B" font-size="11" class="mono">Pull Shark Tier</text>
+
+    <!-- Box 3 -->
+    <rect x="400" y="0" width="180" height="74" rx="8" fill="#131B2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" transform="translate(400,0)" fill="#94A3B8" font-size="10.5" font-weight="600" class="mono">PUBLIC REPOSITORIES</text>
+    <text x="16" y="55" transform="translate(400,0)" fill="#C084FC" font-size="24" font-weight="800" class="sans">6</text>
+    <text x="40" y="54" transform="translate(400,0)" fill="#64748B" font-size="11" class="mono">Active projects</text>
+
+    <!-- Box 4 -->
+    <rect x="600" y="0" width="195" height="74" rx="8" fill="#131B2E" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" transform="translate(600,0)" fill="#94A3B8" font-size="10.5" font-weight="600" class="mono">LEETCODE PROBLEMS</text>
+    <text x="16" y="55" transform="translate(600,0)" fill="#34D399" font-size="24" font-weight="800" class="sans">677</text>
+    <text x="65" y="54" transform="translate(600,0)" fill="#64748B" font-size="11" class="mono">Solved (Top 100k)</text>
+  </g>
+
+  <!-- Language Distribution Bar -->
+  <g transform="translate(25, 155)">
+    <text x="0" y="14" fill="#94A3B8" font-size="11" font-weight="600" class="mono">PRIMARY CODEBASE DISTRIBUTION</text>
+
+    <!-- Visual Progress Bar (Total width = 795px) -->
+    <!-- Python/Jupyter: 44% = 350px -->
+    <!-- TypeScript: 35% = 278px -->
+    <!-- Java: 11.4% = 90px -->
+    <!-- JavaScript: 7.1% = 57px -->
+    <!-- Other: 2.5% = 20px -->
+    <g transform="translate(0, 24)">
+      <rect x="0" y="0" width="795" height="12" rx="6" fill="#1E293B"/>
+
+      <rect x="0" y="0" width="350" height="12" rx="6" fill="#0284C7"/>
+      <rect x="345" y="0" width="283" height="12" rx="0" fill="#3178C6"/>
+      <rect x="623" y="0" width="95" height="12" rx="0" fill="#F59E0B"/>
+      <rect x="713" y="0" width="62" height="12" rx="0" fill="#FBBF24"/>
+      <rect x="770" y="0" width="25" height="12" rx="6" fill="#8B5CF6"/>
+    </g>
+
+    <!-- Legend -->
+    <g transform="translate(0, 52)">
+      <!-- Item 1: Python/Notebook -->
+      <circle cx="5" cy="5" r="4.5" fill="#0284C7"/>
+      <text x="16" y="9" fill="#E2E8F0" font-size="11" class="sans">Python / ML <tspan fill="#64748B">44%</tspan></text>
+
+      <!-- Item 2: TypeScript -->
+      <circle cx="160" cy="5" r="4.5" fill="#3178C6"/>
+      <text x="171" y="9" fill="#E2E8F0" font-size="11" class="sans">TypeScript <tspan fill="#64748B">35%</tspan></text>
+
+      <!-- Item 3: Java -->
+      <circle cx="310" cy="5" r="4.5" fill="#F59E0B"/>
+      <text x="321" y="9" fill="#E2E8F0" font-size="11" class="sans">Java (Spring) <tspan fill="#64748B">11.4%</tspan></text>
+
+      <!-- Item 4: JavaScript -->
+      <circle cx="460" cy="5" r="4.5" fill="#FBBF24"/>
+      <text x="471" y="9" fill="#E2E8F0" font-size="11" class="sans">JavaScript <tspan fill="#64748B">7.1%</tspan></text>
+
+      <!-- Item 5: SQL/PGVector -->
+      <circle cx="600" cy="5" r="4.5" fill="#8B5CF6"/>
+      <text x="611" y="9" fill="#E2E8F0" font-size="11" class="sans">PostgreSQL / SQL <tspan fill="#64748B">2.5%</tspan></text>
+    </g>
+  </g>
+</svg>

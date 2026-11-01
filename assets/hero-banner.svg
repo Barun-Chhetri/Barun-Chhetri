@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="glow-cyan" cx="15%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-purple" cx="85%" cy="70%" r="65%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-blue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Linear Text Gradients -->
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <linearGradient id="badge-border-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="badge-border-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.6"/>
+    </pattern>
+
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.96); }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+      .pulsing-dot {
+        animation: pulse 2.5s infinite ease-in-out;
+      }
+      .floating-badge {
+        animation: float 4s infinite ease-in-out;
+      }
+      .font-mono {
+        font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      }
+      .font-sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Card -->
+  <rect width="900" height="320" rx="16" fill="#0A0E17"/>
+  <rect width="900" height="320" rx="16" fill="url(#grid)"/>
+
+  <!-- Radial Glows -->
+  <rect width="900" height="320" rx="16" fill="url(#glow-cyan)"/>
+  <rect width="900" height="320" rx="16" fill="url(#glow-purple)"/>
+  <rect width="900" height="320" rx="16" fill="url(#glow-blue)"/>
+
+  <!-- Outer Border -->
+  <rect x="1" y="1" width="898" height="318" rx="15" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="1" y="1" width="898" height="3" rx="1.5" fill="url(#accent-line)"/>
+
+  <!-- Window Header / Terminal Controls -->
+  <g transform="translate(30, 28)">
+    <circle cx="0" cy="0" r="5.5" fill="#EF4444" opacity="0.85"/>
+    <circle cx="16" cy="0" r="5.5" fill="#F59E0B" opacity="0.85"/>
+    <circle cx="32" cy="0" r="5.5" fill="#10B981" opacity="0.85"/>
+    <text x="56" y="4" fill="#64748B" font-size="12" class="font-mono">barun-chhetri@portfolio: ~/developer-core</text>
+  </g>
+
+  <!-- Status Indicator Pill -->
+  <g transform="translate(680, 20)">
+    <rect width="180" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <circle cx="16" cy="13" r="4" fill="#10B981" class="pulsing-dot"/>
+    <text x="28" y="17" fill="#E2E8F0" font-size="11" font-weight="600" class="font-mono">AVAILABLE FOR WORK</text>
+  </g>
+
+  <!-- Main Hero Content -->
+  <g transform="translate(40, 95)">
+    <!-- Subtitle Category -->
+    <text x="0" y="0" fill="#38BDF8" font-size="12.5" font-weight="700" letter-spacing="2" class="font-mono">
+      PORTFOLIO &amp; SYSTEM ARCHITECTURE
+    </text>
+
+    <!-- Candidate Full Name -->
+    <text x="0" y="46" fill="url(#text-gradient)" font-size="34" font-weight="800" letter-spacing="-0.5" class="font-sans">
+      BARUN RANJAN CHHETRI
+    </text>
+
+    <!-- Role Headline -->
+    <text x="0" y="80" fill="#E2E8F0" font-size="17" font-weight="600" class="font-sans">
+      Software Engineer <tspan fill="#64748B">|</tspan> Full-Stack Developer <tspan fill="#64748B">|</tspan> AI/ML &amp; Systems Enthusiast
+    </text>
+
+    <!-- Mini Academic Tagline -->
+    <text x="0" y="106" fill="#94A3B8" font-size="13" font-weight="400" class="font-sans">
+      Computer Science @ University of North Texas (GPA: 3.85) • Building High-Performance Full-Stack &amp; RAG Systems
+    </text>
+  </g>
+
+  <!-- Interactive Pillars / Feature Pills -->
+  <g transform="translate(40, 240)">
+    <!-- Pill 1: Backend & Systems -->
+    <g transform="translate(0, 0)">
+      <rect width="190" height="38" rx="8" fill="#0F172A" stroke="url(#badge-border-cyan)" stroke-width="1.2"/>
+      <circle cx="20" cy="19" r="3.5" fill="#38BDF8"/>
+      <text x="32" y="23" fill="#F1F5F9" font-size="12.5" font-weight="600" class="font-mono">Java 21 • Spring Boot</text>
+    </g>
+
+    <!-- Pill 2: RAG & Vectors -->
+    <g transform="translate(205, 0)">
+      <rect width="195" height="38" rx="8" fill="#0F172A" stroke="url(#badge-border-purple)" stroke-width="1.2"/>
+      <circle cx="20" cy="19" r="3.5" fill="#A855F7"/>
+      <text x="32" y="23" fill="#F1F5F9" font-size="12.5" font-weight="600" class="font-mono">Spring AI • PGVector</text>
+    </g>
+
+    <!-- Pill 3: Frontend & Modern Web -->
+    <g transform="translate(415, 0)">
+      <rect width="195" height="38" rx="8" fill="#0F172A" stroke="url(#badge-border-cyan)" stroke-width="1.2"/>
+      <circle cx="20" cy="19" r="3.5" fill="#06B6D4"/>
+      <text x="32" y="23" fill="#F1F5F9" font-size="12.5" font-weight="600" class="font-mono">React 19 • Next.js 16</text>
+    </g>
+
+    <!-- Pill 4: Cloud & Data -->
+    <g transform="translate(625, 0)">
+      <rect width="195" height="38" rx="8" fill="#0F172A" stroke="url(#badge-border-purple)" stroke-width="1.2"/>
+      <circle cx="20" cy="19" r="3.5" fill="#818CF8"/>
+      <text x="32" y="23" fill="#F1F5F9" font-size="12.5" font-weight="600" class="font-mono">Docker • PostgreSQL</text>
+    </g>
+  </g>
+</svg>

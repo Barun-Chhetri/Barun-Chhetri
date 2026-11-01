@@ -59,14 +59,12 @@ git push -u origin main
 
 ## 4. How to Update Specific Content
 
-### Adding Your Official Resume PDF Link
-In `README.md`, find the line:
-```markdown
-<a href="#-resume">
-  <img src="https://img.shields.io/badge/Resume-4F46E5?style=for-the-badge&logo=googledocs&logoColor=white" alt="Resume" />
-</a>
-```
-Replace `#-resume` with a direct link to your PDF (e.g., hosted on Google Drive, GitHub releases, or your personal domain: `https://barunchamlagain.me/resume.pdf`).
+### Official Resume and Personal Portfolio Links
+The official resume and personal portfolio links are integrated:
+* **Personal Portfolio:** `https://portfolio.barunchamlagain.me/`
+* **Resume PDF:** `https://portfolio.barunchamlagain.me/Barun_Chhetri_Resume_2026_Updated.pdf`
+
+Both the top badge strip, the dedicated **Personal Portfolio** section, and the footer connect links now directly point to these verified production URLs.
 
 ### Adding Future Projects
 To add a new project card, follow the template used in `README.md`:

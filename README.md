@@ -16,6 +16,12 @@
   </p>
 
   <p align="center">
+    <a href="https://portfolio.barunchamlagain.me/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Personal Portfolio" />
+    </a>
+    <a href="https://portfolio.barunchamlagain.me/Barun_Chhetri_Resume_2026_Updated.pdf" target="_blank">
+      <img src="https://img.shields.io/badge/Resume-4F46E5?style=for-the-badge&logo=googledocs&logoColor=white" alt="Resume PDF" />
+    </a>
     <a href="https://linkedin.com/in/Barun-Chhetri" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
     </a>
@@ -27,9 +33,6 @@
     </a>
     <a href="mailto:barun.chhetri444@gmail.com">
       <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Barun" />
-    </a>
-    <a href="#-resume">
-      <img src="https://img.shields.io/badge/Resume-4F46E5?style=for-the-badge&logo=googledocs&logoColor=white" alt="Resume" />
     </a>
   </p>
 </div>
@@ -46,6 +49,27 @@ I am a Computer Science student at the **University of North Texas** passionate 
 * **Modern Web**: Responsive applications built on **React 19**, **Next.js 16**, **TypeScript**, and **Tailwind CSS**.
 * **AI & Semantic Search**: Production **Retrieval-Augmented Generation (RAG)** pipelines using **Spring AI**, **PGVector**, 1536-dimensional embeddings, and HNSW indexing.
 * **Data Engineering**: Robust document ingestion (Apache PDFBox, Apache POI), ETL normalization, and multi-tier entity resolution.
+
+---
+
+### 🌐 Personal Portfolio
+
+> **Interactive 3D Spider-Man-inspired developer portfolio featuring Three.js procedural graphics, custom Web Audio synthesis, Hooke's spring physics, and live project architectures.**
+
+<div align="center">
+  <a href="https://portfolio.barunchamlagain.me/" target="_blank">
+    <img src="./assets/project-personal-portfolio.svg" alt="Interactive 3D Developer Portfolio Platform" width="100%" />
+  </a>
+</div>
+
+* **Live Webpage:** [portfolio.barunchamlagain.me](https://portfolio.barunchamlagain.me/)
+* **Repository:** [Barun-Chhetri/Personal_Portfolio](https://github.com/Barun-Chhetri/Personal_Portfolio)
+* **Direct Resume (PDF):** [Barun_Chhetri_Resume_2026_Updated.pdf](https://portfolio.barunchamlagain.me/Barun_Chhetri_Resume_2026_Updated.pdf)
+* **Core Technologies:** React 18, TypeScript, Three.js, React Three Fiber, Tailwind CSS, Framer Motion, Web Audio API, Vite.
+* **Key Architecture & Features:**
+  * **Interactive 3D Canvas:** Procedural 3D NYC skyline with rotating searchlights, atmospheric embers, and mouse parallax built in Three.js and WebGL.
+  * **Interactive Web-Slinging Physics:** Dynamic physics lab featuring Hooke's spring mechanics, momentum throws, and synthetic Web Audio sound effects.
+  * **Production Showcase & Verification:** Direct access to live deployments, verified UNT academic standing, and one-click resume download.
 
 ---
 
@@ -278,6 +302,14 @@ I am currently deepening my expertise in:
     Whether you're looking for a dedicated software engineering intern/full-time engineer, want to discuss scalable full-stack architectures, or collaborate on innovative AI systems:
   </p>
   <p>
+    <a href="https://portfolio.barunchamlagain.me/" target="_blank">
+      <img src="https://img.shields.io/badge/Explore_Portfolio-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Explore Portfolio" />
+    </a>
+    &nbsp;
+    <a href="https://portfolio.barunchamlagain.me/Barun_Chhetri_Resume_2026_Updated.pdf" target="_blank">
+      <img src="https://img.shields.io/badge/Resume_PDF-4F46E5?style=for-the-badge&logo=googledocs&logoColor=white" alt="Resume PDF" />
+    </a>
+    &nbsp;
     <a href="https://linkedin.com/in/Barun-Chhetri" target="_blank">
       <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
     </a>

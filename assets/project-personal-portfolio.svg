@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+    <linearGradient id="p3-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+    <linearGradient id="card-border-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#F43F5E" stop-opacity="0.2"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect width="850" height="250" rx="14" fill="url(#p3-bg)"/>
+  <rect x="1" y="1" width="848" height="248" rx="13" fill="none" stroke="url(#card-border-3)" stroke-width="1.5"/>
+
+  <!-- Top bar -->
+  <g transform="translate(25, 24)">
+    <rect width="90" height="22" rx="11" fill="#0284C7" fill-opacity="0.2" stroke="#38BDF8" stroke-width="1"/>
+    <text x="45" y="15" fill="#38BDF8" font-size="10.5" font-weight="700" text-anchor="middle" class="mono">FEATURED</text>
+
+    <text x="105" y="16" fill="#F8FAFC" font-size="17" font-weight="700" class="sans">
+      Interactive 3D Developer Portfolio
+    </text>
+
+    <!-- Live indicator -->
+    <g transform="translate(640, 2)">
+      <circle cx="0" cy="10" r="4" fill="#10B981"/>
+      <text x="12" y="14" fill="#10B981" font-size="11" font-weight="600" class="mono">LIVE PRODUCTION</text>
+    </g>
+  </g>
+
+  <!-- Dashboard Metrics Panels -->
+  <g transform="translate(25, 62)">
+    <!-- Metric 1: 3D Canvas -->
+    <rect x="0" y="0" width="180" height="64" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="15" y="24" fill="#38BDF8" font-size="11" font-weight="700" class="mono">3D CANVAS</text>
+    <text x="15" y="47" fill="#F1F5F9" font-size="19" font-weight="800" class="sans">Three.js + WebGL</text>
+    <text x="15" y="58" fill="#64748B" font-size="9" class="mono">NYC Skyline &amp; Shaders</text>
+
+    <!-- Metric 2: Physics Engine -->
+    <rect x="200" y="0" width="185" height="64" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="15" y="24" transform="translate(200,0)" fill="#818CF8" font-size="11" font-weight="700" class="mono">PHYSICS LAB</text>
+    <text x="15" y="47" transform="translate(200,0)" fill="#F1F5F9" font-size="19" font-weight="800" class="sans">Hooke&apos;s Spring</text>
+    <text x="15" y="58" transform="translate(200,0)" fill="#64748B" font-size="9" class="mono">Elastic Web Mechanics</text>
+
+    <!-- Metric 3: Audio Synthesis -->
+    <rect x="405" y="0" width="195" height="64" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="15" y="24" transform="translate(405,0)" fill="#F43F5E" font-size="11" font-weight="700" class="mono">AUDIO SYNTH</text>
+    <text x="15" y="47" transform="translate(405,0)" fill="#F1F5F9" font-size="19" font-weight="800" class="sans">Web Audio API</text>
+    <text x="15" y="58" transform="translate(405,0)" fill="#64748B" font-size="9" class="mono">Real-Time Sound FX</text>
+
+    <!-- Metric 4: Resume & Academic -->
+    <rect x="620" y="0" width="180" height="64" rx="8" fill="#1E293B" stroke="#059669" stroke-width="1"/>
+    <text x="15" y="24" transform="translate(620,0)" fill="#34D399" font-size="11" font-weight="700" class="mono">RESUME &amp; ACADEMICS</text>
+    <text x="15" y="47" transform="translate(620,0)" fill="#F1F5F9" font-size="18" font-weight="800" class="sans">GPA 3.85 + PDF</text>
+    <text x="15" y="58" transform="translate(620,0)" fill="#64748B" font-size="9" class="mono">1-Click Direct Access</text>
+  </g>
+
+  <!-- Technical Spec & Stack Description -->
+  <g transform="translate(25, 145)">
+    <text x="0" y="16" fill="#CBD5E1" font-size="12" class="sans">
+      <tspan fill="#38BDF8" font-weight="700">Modern Architecture:</tspan> React 18 • TypeScript • Three.js • React Three Fiber • Tailwind CSS • Framer Motion • Vite
+    </text>
+    <text x="0" y="38" fill="#94A3B8" font-size="11.5" class="sans">
+      Cinematic Spider-Man theme with glassmorphism HUD cards, live production projects, verified academic credentials, and interactive audio.
+    </text>
+  </g>
+
+  <!-- Bottom Badges / Metrics -->
+  <g transform="translate(25, 205)">
+    <rect width="130" height="26" rx="6" fill="#1E293B"/>
+    <text x="65" y="17" fill="#E2E8F0" font-size="11" font-weight="600" text-anchor="middle" class="mono">React 18 + Three.js</text>
+
+    <rect x="140" y="0" width="125" height="26" rx="6" fill="#1E293B"/>
+    <text x="202" y="17" fill="#E2E8F0" font-size="11" font-weight="600" text-anchor="middle" class="mono">WebGL &amp; Shaders</text>
+
+    <rect x="275" y="0" width="135" height="26" rx="6" fill="#1E293B"/>
+    <text x="342" y="17" fill="#E2E8F0" font-size="11" font-weight="600" text-anchor="middle" class="mono">Framer Motion</text>
+
+    <rect x="420" y="0" width="130" height="26" rx="6" fill="#1E293B"/>
+    <text x="485" y="17" fill="#E2E8F0" font-size="11" font-weight="600" text-anchor="middle" class="mono">Web Audio Synth</text>
+
+    <rect x="560" y="0" width="240" height="26" rx="6" fill="#0C4A6E" stroke="#0284C7" stroke-width="1"/>
+    <text x="680" y="17" fill="#BAE6FD" font-size="11" font-weight="700" text-anchor="middle" class="mono">🔗 portfolio.barunchamlagain.me</text>
+  </g>
+</svg>

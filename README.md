@@ -222,6 +222,15 @@ I am a Computer Science student at the **University of North Texas** passionate 
 
 <br />
 
+<div align="center">
+  <h4>📅 Live GitHub Contribution Calendar</h4>
+  <a href="https://github.com/Barun-Chhetri">
+    <img src="https://ghchart.rshah.org/38bdf8/Barun-Chhetri" alt="Barun Chhetri GitHub Contributions Calendar" width="100%" />
+  </a>
+</div>
+
+<br />
+
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
@@ -239,7 +248,7 @@ I am a Computer Science student at the **University of North Texas** passionate 
   </tr>
 </table>
 
-> 📌 **Algorithmic Milestone:** **677 LeetCode problems solved** (274 Easy, 329 Medium, 74 Hard) spanning Graphs, Dynamic Programming, Binary Trees, and Vector Algorithms. Ranked in the top 100k global developers on [leetcode.com/u/barunchhetri](https://leetcode.com/u/barunchhetri).
+> 📌 **Engineering & Algorithmic Milestones:** Over **700+ verified GitHub contributions** across full-stack production systems and continuous learning journals, paired with **677 LeetCode problems solved** (274 Easy, 329 Medium, 74 Hard) spanning Graphs, Dynamic Programming, and High-Performance Systems. Ranked in the top 100k global developers on [leetcode.com/u/barunchhetri](https://leetcode.com/u/barunchhetri).
 
 ---
 

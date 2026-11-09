@@ -45,7 +45,7 @@
     <!-- Box 1 -->
     <rect width="180" height="74" rx="8" fill="#131B2E" stroke="#1E293B" stroke-width="1"/>
     <text x="16" y="24" fill="#94A3B8" font-size="10.5" font-weight="600" class="mono">TOTAL CONTRIBUTIONS</text>
-    <text x="16" y="55" fill="#38BDF8" font-size="24" font-weight="800" class="sans">130+</text>
+    <text x="16" y="55" fill="#38BDF8" font-size="24" font-weight="800" class="sans">700+</text>
     <text x="70" y="54" fill="#64748B" font-size="11" class="mono">commits &amp; PRs</text>
 
     <!-- Box 2 -->

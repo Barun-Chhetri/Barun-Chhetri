@@ -222,21 +222,12 @@ I am a Computer Science student at the **University of North Texas** passionate 
 
 <br />
 
-<div align="center">
-  <h4>📅 Live GitHub Contribution Calendar</h4>
-  <a href="https://github.com/Barun-Chhetri">
-    <img src="https://ghchart.rshah.org/38bdf8/Barun-Chhetri" alt="Barun Chhetri GitHub Contributions Calendar" width="100%" />
-  </a>
-</div>
-
-<br />
-
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
       <h4>⚡ GitHub Contribution Streak</h4>
       <a href="https://github.com/Barun-Chhetri">
-        <img src="https://streak-stats.demolab.com/?user=Barun-Chhetri&theme=tokyonight&hide_border=true&border_radius=8" alt="Barun Chhetri GitHub Streak" width="100%" />
+        <img src="./assets/github-streak-card.svg" alt="Barun Chhetri GitHub Streak" width="100%" />
       </a>
     </td>
     <td width="50%" align="center" valign="top">
